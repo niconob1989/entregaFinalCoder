@@ -1,0 +1,688 @@
+/* NAVEGADOR */
+
+.navbar-nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.navbar-brand{
+    color: #c9ba34 !important;
+    font-size: 20px ;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.contenedorNavegador  {
+    width: 100%;
+    height: 600px;
+    background: #554791; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(240, 63%, 82%, 0.795), hsla(238, 63%, 12%, 0.986)), url(Imagenes/acuerdo2.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(246, 25%, 92%, 0.37), hsl(247, 90%, 8%)), url(Imagenes/acuerdo2.jpg);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+/* Boton Contactanos */
+
+.contactanos{
+    background-color: orange;
+    color: #F9FDFD;
+    font-weight: 500;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+/* SECCION Texto */
+.seccionTexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #F9FDFD;
+  
+
+}
+
+/* Seccion Ola */
+
+.ola{
+    margin-top: 350px;
+    
+}
+
+/* Seccion Quienes Somos */
+.conteinerQuienesSomos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.contenedorNosotros{
+    width: 400px;;
+}
+
+
+.sobreNosotros{
+    border-radius: 10px;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: orange;
+    color: #F9FDFD;
+    border: none;
+    font-weight: 500;
+}
+
+.contenedorHistoria{
+    width: 400px;
+}
+
+.nuestraHistoria{
+    border-radius: 10px;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: orange;
+    color: #F9FDFD;
+    border: none;
+    font-weight: 500;
+}
+
+.conteinerValores{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.botonValores{
+    border-radius: 10px;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: orange;
+    color: #F9FDFD;
+    border: none;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.contenedorValores {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 850px;;
+}
+
+.h3Valores{
+    border-bottom: 1.5px solid #0193cf;
+    color:#0193cf;
+    font-size: 20px;
+ 
+}
+
+/* Seccion Continuar Leyendo */
+
+.conteinerValoresContinuar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+   
+    
+}
+
+.conteinerValoresContinuar h3{
+    width: 850px;
+}
+
+.conteinerValoresContinuar p{
+    width: 850px;
+}
+
+.conteinerBotonValorContinuar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+   
+}
+
+.botonValoresContinuar{
+     border:none;
+     color:  orange;
+     background-color: transparent;
+     border-bottom: 2px solid  orange;
+     width: 850px;
+     font-style: italic;
+     
+    
+}
+
+
+/* SECCION PRESTAMO */
+
+.tituloPrestamo{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    letter-spacing: 10px;
+    margin-bottom: 50px;
+    
+}
+.conteinerPrestamo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#divNombre, #divEmail, #divPlazo, #divMonto, #divBotonEnviar, #nuevoDivCalculadora, #nuevoDivCalculadoraBoton{
+   margin-bottom: 10px;
+}
+
+#divNombre, #divEmail, #divPlazo, #divMonto, #divBotonEnviar, #nuevoDivCalculadora, #nuevoDivCalculadoraBoton {
+    height: 45px;
+ }
+
+#inputNombre, #inputEmail, #inputPlazo,  #inputMonto, #botonEnviar , #nuevoUlCalculadora, #nuevoBotonCalculadora{
+    width: 500px;
+    height: 30px;
+}
+
+#inputNombre, #inputEmail, #inputPlazo,  #inputMonto{
+    border-color: transparent;
+    border-bottom: 2px solid #000B3B;
+  
+    
+}
+
+/* Seccion útlimos calculos */
+
+.ultimosCalculos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+
+.ultimosCalculosBoton{
+    width: 200px;
+    background-color: ORANGE;
+    border-color: orange;
+    border-radius: 10px;
+    color: #F9FDFD;
+    font-weight: 400;
+    padding: 3px;
+}
+
+/* boton que aparece cuando todo es true */
+#nuevoBotonCalculadora{
+  background-color: #193755;
+  border-color: #193755;
+  border-radius: 10px;
+  color: #F9FDFD;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+
+/* Seccion API */
+
+.conteneinerApi{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    background: #69c3e4dc; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(181, 25%, 34%, 0.562), hsla(177, 47%, 36%, 0.363)), url(Imagenes/dolar1.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(194, 32%, 39%, 0.582), hsla(189, 43%, 40%, 0.548)), url(Imagenes/dolar1.jpg);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedorApi{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+
+.contenedorApi h3{
+    margin-bottom: 30px;
+    color: #F9FDFD;
+    width: 400px;
+}
+
+
+.contenedorApi button{
+    padding: 10px;
+    border-radius: 15px;
+    border-color: transparent;
+    background-color: ORANGE;
+    color: #F9FDFD;
+    font-weight: 500;
+}
+
+
+
+/* Seccion Banner */
+
+.conteinerBanner{
+    background-color: #092F57;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    color: #F9FDFD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contenedorInformacion{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 350px;
+    align-items: center;
+}
+
+.contenedorInformacion h3{
+    font-size: 40px;
+    margin-bottom: 15px;
+    
+}
+
+.contenedorInformacion span {
+    border-bottom: 2px solid #F9FDFD;
+}
+
+.contenedorPublicidad{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.contenedorPublicidad h3{
+    font-size: 20px;
+}
+
+.contenedorPublicidad img{
+    width: 45px;
+    margin-bottom: 15px;
+}
+
+
+/* Opera a un CLICK */
+.conteinerUnClick{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #000B3B;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: max-content;
+}
+
+.contenedorImagenClick img{
+    width: 250px;
+}
+
+.contenedorTituloClick{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedorTituloClick button{
+    margin-top: 20px;
+    background-color: #11A8A7;
+    border-color: transparent;
+    padding: 10px;
+    border-radius: 15px;
+    width: 200px;
+    color: #F9FDFD;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.form-label{
+    color: #F9FDFD;
+}
+
+.form-control{
+    resize: none;
+}
+
+.contenedorTituloClick h3{
+    color: #ED2F79;
+}
+
+.botonEnviarFormulario{
+    background-color: #ED2F79 !important;
+}
+
+
+/* FOOTER */
+
+.ContenedorFooter{
+    background-color: #092F57;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.titulofooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    background: #000B3B;
+}
+
+.titulofooter a{
+    color: #ED2F79;
+    font-size: 25px;
+    padding-top: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.Redes__Sociales .Redes__Sociales--whats a, .Redes__Sociales .Redes__Sociales--instagram a{
+    text-decoration: none;
+    color: #F9FDFD;
+    font-size: 15px;
+}
+
+.Redes__Sociales li{
+    list-style: none;
+}
+
+.Redes__Sociales{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.Redes__Sociales li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.Redes__Sociales img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.ContactosFooter{
+    font-family: 'Mukta', sans-serif;
+    margin-bottom: 15px;
+    letter-spacing: 5px;
+    font-size: 15px;
+    color: #F9FDFD ;
+}
+
+.DerechosFooter p{
+    color: #F9FDFD;
+    font-size: 12px;
+}
+
+
+
+@media (max-width: 850px){
+/* boton contactos */
+    .contactanos{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+}
+
+.seccionTexto{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+.ola {
+    display: none;
+}
+
+/* Seccion Quienes Somos */
+
+.conteinerQuienesSomos{
+   margin-bottom: 0px;
+}
+
+.contenedorNosotros{
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+
+.sobreNosotros{
+    width: 260px;
+    
+}
+
+.contenedorHistoria{
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.nuestraHistoria{
+    width: 260px;
+   
+}
+      
+    /* Seccion valores */
+
+.botonValores{
+    width: 300px;
+}
+
+.contenedorValores {
+    width: 300px;
+}
+
+.h3Valores{
+    text-align: center;
+}
+    
+.pValores{
+    text-align: justify;
+}
+
+
+/* Seccion Continuar Leyendo */
+
+.conteinerValoresContinuar h3{
+    width: 300px;
+}
+
+.conteinerValoresContinuar p{
+    width: 300px;
+}
+
+.botonValoresContinuar{
+    width: 300px;
+}
+
+
+/* SECCION PRESTAMO */
+
+.tituloPrestamo{
+    letter-spacing: 5px;
+    
+}
+
+.tituloPrestamo h1{
+   font-size: 25px;
+}
+
+#inputNombre, #inputEmail, #inputPlazo,  #inputMonto, #botonEnviar, #nuevoBotonCalculadora{
+    width: 300px;
+  
+    
+}
+
+
+#nuevoDivCalculadora{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nuevoUlCalculadora{
+    width: 300px;
+}
+
+
+/* Seccion API */
+.contenedorApi{
+    margin-left: 20px;
+}
+
+.contenedorApi h3{
+    width: 300px;
+    
+}
+
+
+/* Seccion BAnner */
+
+.conteinerBanner{
+    height: 800px;
+}
+
+.contenedorInformacion h3{
+    font-size: 30px;
+    
+}
+
+/* Seccion Un click */
+
+.conteinerUnClick{
+    height: max-content;
+}
+
+.contenedorTituloClick h3{
+    margin-top: 15px;
+}
+
+
+/* FOOTER */
+
+.titulofooter{
+    padding: 8px;
+}
+
+.titulofooter a {
+    font-size: 15px;
+    display: flex;
+}
+
+.Redes__Sociales .Redes__Sociales--whats a{
+    font-size: 12px;
+}
+
+.Redes__Sociales .Redes__Sociales--instagram a{
+    font-size: 12px;
+}
+
+.Redes__Sociales--instagram img{
+    width: 22px;
+    height: 22px;
+}
+
+.Redes__Sociales--whats img{
+    width: 22px;
+    height: 22px;
+}
+
+.ContactosFooter{
+    font-size: 12px;
+}
+
+.DerechosFooter p{
+    font-size: 10px;
+}
+
+
+
+}
+
+
+@media (max-width: 390px){
+    .seccionTexto{
+        width: 280px;
+        font-size: 25px;
+    }
+    .contenedorApi{
+        margin-left: 5px;
+    }
+
+    .tituloPrestamo{
+        letter-spacing: 2px;
+        
+    }
+    
+    .tituloPrestamo h1{
+       font-size: 20px;
+    }
+}
